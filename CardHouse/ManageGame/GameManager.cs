@@ -7,6 +7,7 @@ namespace CardHouse.ManageGame
 {
     public class GameManager
     {
+        private readonly Random random = new Random();
         private TurnToPlay _turnToPlay;
         private GameState _gameState;
         private GameConfiguration _gameConfiguration;
@@ -28,7 +29,14 @@ namespace CardHouse.ManageGame
         }
         public void StartGame()
         {
-
+            foreach (var player in _gameState.Players)
+            {
+                for(int i=0; i<4; i++)
+                {
+                    // Each Player gets 5 random cards
+                    player.AddCard(_gameState.DeckOfCards.GetCard(random.Next(0, _gameState.DeckOfCards.Deck.Count)));
+                }
+            }
         }
         public Dictionary<Player, List<Card>> ShowCardsOfOthers()
         {
@@ -43,6 +51,7 @@ namespace CardHouse.ManageGame
         {
             
         }
+
         public void StatusAfterTurn()
         {
 

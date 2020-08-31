@@ -17,7 +17,7 @@ namespace CardHouse
             TurnToPlay turnsToPlay = new TurnToPlay(gameState, configuration);
             GameManager gameManager = new GameManager(turnsToPlay, gameState, configuration);
             gameManager.AddPlayers(CreateListOfPlayers());
-
+            gameManager.ShowCardsOfOthers();
 
         }
 
