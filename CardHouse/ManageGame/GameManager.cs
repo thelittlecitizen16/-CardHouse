@@ -27,11 +27,11 @@ namespace CardHouse.ManageGame
                 }
             }     
         }
-        public void StartGame()
+        public void GiveEachPlayerCards()
         {
             foreach (var player in _gameState.Players)
             {
-                for(int i=0; i<4; i++)
+                for(int i=0; i<5; i++)
                 {
                     // Each Player gets 5 random cards
                     player.AddCard(_gameState.DeckOfCards.GetCard(random.Next(0, _gameState.DeckOfCards.Deck.Count)));
