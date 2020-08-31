@@ -4,7 +4,6 @@ C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\bin\Debug\netcoreap
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\bin\Debug\netcoreapp3.1\CardHouse.runtimeconfig.dev.json
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\bin\Debug\netcoreapp3.1\CardHouse.dll
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\bin\Debug\netcoreapp3.1\CardHouse.pdb
-C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\obj\Debug\netcoreapp3.1\CardHouse.csprojAssemblyReference.cache
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\obj\Debug\netcoreapp3.1\CardHouse.AssemblyInfoInputs.cache
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\obj\Debug\netcoreapp3.1\CardHouse.AssemblyInfo.cs
 C:\Users\thelittlecitizen16\source\repos\CardHouse\CardHouse\obj\Debug\netcoreapp3.1\CardHouse.csproj.CoreCompileInputs.cache

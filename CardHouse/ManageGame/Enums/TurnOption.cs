@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CardHouse.ManageGame.Enums
 {
-    public enum TurnOptions
+    public enum TurnOption
     {
         GETCLUE,
         TROWCARD,

@@ -13,6 +13,7 @@ namespace CardHouse
         public int MaxCluesNumber { get; private set; }
         public int CurrentDisqualification { get; set; }
         public int MaxDisqualification { get; private set; }
+        public bool EndGame { get;  set; }
 
         public GameConfiguration()
         {
@@ -23,6 +24,7 @@ namespace CardHouse
             MaxCluesNumber = 5;
             MaxDisqualification = 4;
             CurrentDisqualification = 0;
+            EndGame = false;
         }
     }
 }
