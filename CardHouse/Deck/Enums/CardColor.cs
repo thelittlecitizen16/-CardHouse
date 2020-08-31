@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CardHouse
+namespace CardHouse.Enums
 {
-    enum CardColor
+    public enum CardColor
     {
         RED,
         GREEN,

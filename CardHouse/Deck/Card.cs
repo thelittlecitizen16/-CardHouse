@@ -1,8 +1,9 @@
-﻿using System;
+﻿using CardHouse.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CardHouse
+namespace CardHouse.Deck
 {
     public class Card
     {
