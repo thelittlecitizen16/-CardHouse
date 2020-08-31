@@ -45,13 +45,13 @@ namespace CardHouse.ManageGame.TurnOptions
         {
             if (playerCard.Number == 1)
             {
-                if (!_gameState.CardsOnBoard.Contains(playerCard))
+                if (!_gameState.CardsOnBoard.CardsOnBoardDict[playerCard.Color].Contains(playerCard))
                 {
                     return true;
                 }
 
             }
-            else if (_gameState.CardsOnBoard.Where(c=>c.Color == playerCard.Color).Where(c=>c.Number == playerCard.Number-1).Any())
+            else if (_gameState.CardsOnBoard.CardsOnBoardDict[playerCard.Color].Where(c=>c.Color == playerCard.Color).Where(c=>c.Number == playerCard.Number-1).Any())
             {
                 return true;
             }

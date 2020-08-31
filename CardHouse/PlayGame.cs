@@ -20,7 +20,6 @@ namespace CardHouse
             GameManager.GiveEachPlayerCards();
         }
 
-
         public void PrintOthersCards()
         {
             Dictionary<Player, List<Card>> playersCards = GameManager.ShowCardsOfOthers();
